@@ -1,0 +1,44 @@
+body {
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEA8QEA8PDw8PDw8PDw8PDw8PDw8PFRUWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NFQ8PFSsZFRkrKysrKzcrLSstKys3Ky0rLSs3LSsrKy0rKystKysrKysrKysrKysrKysrKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIDBAf/xAAhEAEBAQEAAgICAwEAAAAAAAAAARECEjEhQVFhAxOB8f/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A+z9e6da65ZkbYUqqhBmo0VRYkAaIkSCoqpAJIEOjRVDrJiEE5axnyV6BuUXpzpkIVv5TMaFB0HAMpY1S4QbnRxj2MSDfPt0cN/DXncItddTl/b+kQp6HLbG/IFGoBVIUAZtbY6hiGIrABqhFZoNQjHSw0KhZpEgLEcCjUgqtEqDchY8h5kWt2piRuAzYZ+DWehBYZ0pR0o3yvvHOtYhXaROHlfyki16GO42oiubUKUWLEkBWa2z0oKmoaAVF6FBWikCLBaQqCmRIEz1Tazig1RuQYIzTPgoFDFFopZw6kGbyJWqlB5NSs+JkBvEwkHexQ2tSstsDW6x40Qqixn5gNBBRqKiVUBrOtyM32IpFSKAISi0W/hmmKikIIFnGkgJFigtAyHGdOgsFhFALUlQc1uVkyCnEkg71RJlo6EAKCBYPE1QB4its0EOlEoqzWtZojOo4FRk9Uc1RQxoJAyAigma1GVEVDQTNOigtUqc/XoR1Wsc10FH+JpIsdYtZhjKlAgqjBYDLUTO/KjbJFqArNrbNUEVLNqotFSojNPKUqhoVANIRAharRz+xF0J/Iu4uOcUawNCoC1Csfajd5+DonX7h3UGp2mf8RCvSDqYbFQWqGU6ypUF9nr0NWqKVVm1aI3owWq9CmsmdDoQUVVKiBgqiFIogi1M0GlotMAlC0UiiEQCxVRQTlpatApnUg9CtZ1ay00pGb0JVhXTQx5JIVqVYJToKxmtKAJRacZVGpVUBVYzTaFQfZsFUoKVKq3BHLvtnm1rqMyY0y6SNRmRqI0azzV1VzMQaGi0YBrGtVmqh1aEC1IKPRQUw0oKVgKFYgJlZQppjJA0HQgLA0KqD2MKBkNYKqNOdanTE+aYaN/4eWdy/LoqCKpzt0Gufy1WeToLEYqKxqQ6VCmTKIkNQPShpZbVpZKB1AgFCAWt1hrQCFQHUCDNMVigIWFAx1c9iLu301FRys10/ji45ahSM1y4jrYzIuA1G8rmCHRrWDBWazW7GaIzihw4qMprELHfFhTDTMVhMgMprFAGIoFgagBBqCgDBCCUKgoojVIM+OsOkrn/N8fJiaosOrtRM2GHqAzhjOrnsRuA6zoqsc2r0zarKMjOmdA0DqB2iZpjLRIMFBgo0QrVQDUFUNFGrRQITohwEjCKIlqQMg7mxEHOcN4OjqotZqthBy6PEa75Eqo1isWpFcumHWxmxqs6xWuOFI1KA/qqb8il1ZhXKQrUQSKugkIYkgX2ekhRRQhGoUhQUgR59JAKakgzXPn6KaQ8NpJpiZSDRPbVSBnr0zElRkpKHlJCP/9k=");
+}
+
+div {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 15pt;
+  text-align: center;
+}
+
+h1 {
+  margin: 200px 0 250px;
+  font-size: 50px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: green;
+  margin: 25px;
+  font-size: 30px;
+}
+
+#img {
+  position: relative;
+  top: 100px;
+}
+
+#check_detail {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: green;
+  margin: 25px;
+  font-size: 30px;
+}
+
+#showDetail {
+  display: none;
+  padding: 30px;
+  text-align: center;
+  font-style: bolder;
+  font-size: 30pt;
+}

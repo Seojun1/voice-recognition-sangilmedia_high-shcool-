@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>학과 예측 음성인식기</title>
+    </head>
+    <body>
+        <div id="all">
+            <img src="sangil.png" alt="상일미디어고등학교" id="img">
+            <h1>상일미디어고등학교 학과 예측 음성인식기</h1>
+            <button id="start">음성인식 시작</button>
+            <button id="stop">음성인식 멈추기</button>
+            <br>
+            <form>
+                <section id="radioBtn">
+                    <!--설명 영역 라디오 버튼-->
+                    <input
+                        type="button"
+                        name="check"
+                        id="check_detail"
+                        value="음성인식 사용법"
+                        onclick="showDetail()">
+                </section>
+            </form>
+        </div>
+
+        <section id="showDetail">
+            <h3>음성인식 방법</h3>
+            <ul>
+                <li>"음성인식 시작" 버튼을 클릭한다.</li>
+                <li>마이크 사용 권한을 허용한다.</li>
+                <li>자기의 반을 말한다.</li>
+                <li>반을 다 말했으면 "음성인식 멈추기" 버튼을 클릭한다.</li>
+
+            </ul>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
